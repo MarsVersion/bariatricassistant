@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "BariatricAssistant",
+    "slug": "bariatric-assistant",
+    "version": "1.0.0",
+    "entryPoint": "./App.js", 
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
