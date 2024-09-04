@@ -3,11 +3,19 @@
     "name": "BariatricAssistant",
     "slug": "bariatric-assistant",
     "version": "1.0.0",
-    "entryPoint": "./App.js", 
+    "entryPoint": "./App.js",
     "platforms": [
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c41ed24e-b910-405b-89e3-034887d80f57"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.marsversion.bariatricassistant"
+    }
   }
 }
