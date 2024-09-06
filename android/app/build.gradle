@@ -109,7 +109,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.bariatricassistant"
+    namespace 'com.marsversion.bariatricassistant'
     defaultConfig {
         applicationId 'com.marsversion.bariatricassistant'
         minSdkVersion rootProject.ext.minSdkVersion

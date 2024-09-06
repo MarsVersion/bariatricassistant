@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,11 +12,57 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		7EC4E3AA2C8B1D3D00609823 /* BariatricAssistantClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4E3A92C8B1D3D00609823 /* BariatricAssistantClipApp.swift */; };
+		7EC4E3AC2C8B1D3D00609823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4E3AB2C8B1D3D00609823 /* ContentView.swift */; };
+		7EC4E3AE2C8B1D4200609823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4E3AD2C8B1D4200609823 /* Assets.xcassets */; };
+		7EC4E3B12C8B1D4200609823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4E3B02C8B1D4200609823 /* Preview Assets.xcassets */; };
+		7EC4E3BD2C8B1D4300609823 /* BariatricAssistantClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4E3BC2C8B1D4300609823 /* BariatricAssistantClipTests.swift */; };
+		7EC4E3C72C8B1D4300609823 /* BariatricAssistantClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4E3C62C8B1D4300609823 /* BariatricAssistantClipUITests.swift */; };
+		7EC4E3C92C8B1D4300609823 /* BariatricAssistantClipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4E3C82C8B1D4300609823 /* BariatricAssistantClipUITestsLaunchTests.swift */; };
+		7EC4E3CD2C8B1D4300609823 /* BariatricAssistantClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 7EC4E3A72C8B1D3D00609823 /* BariatricAssistantClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		96905EF65AED1B983A6B3ABC /* libPods-BariatricAssistant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-BariatricAssistant.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		C73F5B5BA38F8F438AE355DC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 773AEF488D37BA1DE96A7D9B /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EC4E3B92C8B1D4300609823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC4E3A62C8B1D3D00609823;
+			remoteInfo = BariatricAssistantClip;
+		};
+		7EC4E3C32C8B1D4300609823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC4E3A62C8B1D3D00609823;
+			remoteInfo = BariatricAssistantClip;
+		};
+		7EC4E3CA2C8B1D4300609823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC4E3A62C8B1D3D00609823;
+			remoteInfo = BariatricAssistantClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EC4E3CC2C8B1D4300609823 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				7EC4E3CD2C8B1D4300609823 /* BariatricAssistantClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		13B07F961A680F5B00A75B9A /* BariatricAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BariatricAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,8 +73,21 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BariatricAssistant/main.m; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-BariatricAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BariatricAssistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2E3173556A471DD304B334 /* Pods-BariatricAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BariatricAssistant.debug.xcconfig"; path = "Target Support Files/Pods-BariatricAssistant/Pods-BariatricAssistant.debug.xcconfig"; sourceTree = "<group>"; };
-		773AEF488D37BA1DE96A7D9B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = BariatricAssistant/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		773AEF488D37BA1DE96A7D9B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = BariatricAssistant/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		77EC0658216F439CB5F031B6 /* BariatricAssistant-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "BariatricAssistant-Bridging-Header.h"; path = "BariatricAssistant/BariatricAssistant-Bridging-Header.h"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-BariatricAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BariatricAssistant.release.xcconfig"; path = "Target Support Files/Pods-BariatricAssistant/Pods-BariatricAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		7EC4E3A72C8B1D3D00609823 /* BariatricAssistantClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BariatricAssistantClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC4E3A92C8B1D3D00609823 /* BariatricAssistantClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BariatricAssistantClipApp.swift; sourceTree = "<group>"; };
+		7EC4E3AB2C8B1D3D00609823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EC4E3AD2C8B1D4200609823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC4E3B02C8B1D4200609823 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EC4E3B22C8B1D4200609823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC4E3B32C8B1D4200609823 /* BariatricAssistantClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BariatricAssistantClip.entitlements; sourceTree = "<group>"; };
+		7EC4E3B82C8B1D4200609823 /* BariatricAssistantClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BariatricAssistantClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC4E3BC2C8B1D4300609823 /* BariatricAssistantClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BariatricAssistantClipTests.swift; sourceTree = "<group>"; };
+		7EC4E3C22C8B1D4300609823 /* BariatricAssistantClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BariatricAssistantClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC4E3C62C8B1D4300609823 /* BariatricAssistantClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BariatricAssistantClipUITests.swift; sourceTree = "<group>"; };
+		7EC4E3C82C8B1D4300609823 /* BariatricAssistantClipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BariatricAssistantClipUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9CE98529D0F34955AE36D91F /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "BariatricAssistant/noop-file.swift"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = BariatricAssistant/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
@@ -42,6 +101,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				96905EF65AED1B983A6B3ABC /* libPods-BariatricAssistant.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC4E3A42C8B1D3D00609823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC4E3B52C8B1D4200609823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC4E3BF2C8B1D4300609823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +140,7 @@
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 				9CE98529D0F34955AE36D91F /* noop-file.swift */,
 				773AEF488D37BA1DE96A7D9B /* PrivacyInfo.xcprivacy */,
+				77EC0658216F439CB5F031B6 /* BariatricAssistant-Bridging-Header.h */,
 			);
 			name = BariatricAssistant;
 			sourceTree = "<group>";
@@ -71,6 +152,44 @@
 				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-BariatricAssistant.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EC4E3A82C8B1D3D00609823 /* BariatricAssistantClip */ = {
+			isa = PBXGroup;
+			children = (
+				7EC4E3A92C8B1D3D00609823 /* BariatricAssistantClipApp.swift */,
+				7EC4E3AB2C8B1D3D00609823 /* ContentView.swift */,
+				7EC4E3AD2C8B1D4200609823 /* Assets.xcassets */,
+				7EC4E3B22C8B1D4200609823 /* Info.plist */,
+				7EC4E3B32C8B1D4200609823 /* BariatricAssistantClip.entitlements */,
+				7EC4E3AF2C8B1D4200609823 /* Preview Content */,
+			);
+			path = BariatricAssistantClip;
+			sourceTree = "<group>";
+		};
+		7EC4E3AF2C8B1D4200609823 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7EC4E3B02C8B1D4200609823 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EC4E3BB2C8B1D4300609823 /* BariatricAssistantClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC4E3BC2C8B1D4300609823 /* BariatricAssistantClipTests.swift */,
+			);
+			path = BariatricAssistantClipTests;
+			sourceTree = "<group>";
+		};
+		7EC4E3C52C8B1D4300609823 /* BariatricAssistantClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EC4E3C62C8B1D4300609823 /* BariatricAssistantClipUITests.swift */,
+				7EC4E3C82C8B1D4300609823 /* BariatricAssistantClipUITestsLaunchTests.swift */,
+			);
+			path = BariatricAssistantClipUITests;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -85,6 +204,9 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* BariatricAssistant */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				7EC4E3A82C8B1D3D00609823 /* BariatricAssistantClip */,
+				7EC4E3BB2C8B1D4300609823 /* BariatricAssistantClipTests */,
+				7EC4E3C52C8B1D4300609823 /* BariatricAssistantClipUITests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
@@ -99,6 +221,9 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* BariatricAssistant.app */,
+				7EC4E3A72C8B1D3D00609823 /* BariatricAssistantClip.app */,
+				7EC4E3B82C8B1D4200609823 /* BariatricAssistantClipTests.xctest */,
+				7EC4E3C22C8B1D4300609823 /* BariatricAssistantClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,15 +276,71 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
+				05DC6CE7BFE2FF693A673B14 /* [CP] Embed Pods Frameworks */,
+				7EC4E3CC2C8B1D4300609823 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7EC4E3CB2C8B1D4300609823 /* PBXTargetDependency */,
 			);
 			name = BariatricAssistant;
 			productName = BariatricAssistant;
 			productReference = 13B07F961A680F5B00A75B9A /* BariatricAssistant.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7EC4E3A62C8B1D3D00609823 /* BariatricAssistantClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC4E3D42C8B1D4300609823 /* Build configuration list for PBXNativeTarget "BariatricAssistantClip" */;
+			buildPhases = (
+				7EC4E3A32C8B1D3D00609823 /* Sources */,
+				7EC4E3A42C8B1D3D00609823 /* Frameworks */,
+				7EC4E3A52C8B1D3D00609823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BariatricAssistantClip;
+			productName = BariatricAssistantClip;
+			productReference = 7EC4E3A72C8B1D3D00609823 /* BariatricAssistantClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		7EC4E3B72C8B1D4200609823 /* BariatricAssistantClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC4E3D52C8B1D4300609823 /* Build configuration list for PBXNativeTarget "BariatricAssistantClipTests" */;
+			buildPhases = (
+				7EC4E3B42C8B1D4200609823 /* Sources */,
+				7EC4E3B52C8B1D4200609823 /* Frameworks */,
+				7EC4E3B62C8B1D4200609823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC4E3BA2C8B1D4300609823 /* PBXTargetDependency */,
+			);
+			name = BariatricAssistantClipTests;
+			productName = BariatricAssistantClipTests;
+			productReference = 7EC4E3B82C8B1D4200609823 /* BariatricAssistantClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EC4E3C12C8B1D4300609823 /* BariatricAssistantClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC4E3D62C8B1D4300609823 /* Build configuration list for PBXNativeTarget "BariatricAssistantClipUITests" */;
+			buildPhases = (
+				7EC4E3BE2C8B1D4300609823 /* Sources */,
+				7EC4E3BF2C8B1D4300609823 /* Frameworks */,
+				7EC4E3C02C8B1D4300609823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC4E3C42C8B1D4300609823 /* PBXTargetDependency */,
+			);
+			name = BariatricAssistantClipUITests;
+			productName = BariatricAssistantClipUITests;
+			productReference = 7EC4E3C22C8B1D4300609823 /* BariatricAssistantClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -167,10 +348,23 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1250;
+					};
+					7EC4E3A62C8B1D3D00609823 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7EC4E3B72C8B1D4200609823 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7EC4E3A62C8B1D3D00609823;
+					};
+					7EC4E3C12C8B1D4300609823 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7EC4E3A62C8B1D3D00609823;
 					};
 				};
 			};
@@ -188,6 +382,9 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* BariatricAssistant */,
+				7EC4E3A62C8B1D3D00609823 /* BariatricAssistantClip */,
+				7EC4E3B72C8B1D4200609823 /* BariatricAssistantClipTests */,
+				7EC4E3C12C8B1D4300609823 /* BariatricAssistantClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -201,6 +398,29 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
 				C73F5B5BA38F8F438AE355DC /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC4E3A52C8B1D3D00609823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC4E3B12C8B1D4200609823 /* Preview Assets.xcassets in Resources */,
+				7EC4E3AE2C8B1D4200609823 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC4E3B62C8B1D4200609823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC4E3C02C8B1D4300609823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +441,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" \"$PROJECT_ROOT\" ios absolute | tail -n 1)\"\nfi\n\nif [[ -z \"$CLI_PATH\" ]]; then\n  # Use Expo CLI\n  export CLI_PATH=\"$(\"$NODE_BINARY\" --print \"require.resolve('@expo/cli', { paths: [require.resolve('expo/package.json')] })\")\"\nfi\nif [[ -z \"$BUNDLE_COMMAND\" ]]; then\n  # Default Expo CLI command for bundling\n  export BUNDLE_COMMAND=\"export:embed\"\nfi\n\n# Source .xcode.env.updates if it exists to allow\n# SKIP_BUNDLING to be unset if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.updates\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.updates\"\nfi\n# Source local changes to allow overrides\n# if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
+		};
+		05DC6CE7BFE2FF693A673B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BariatricAssistant/Pods-BariatricAssistant-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BariatricAssistant/Pods-BariatricAssistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -301,17 +539,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7EC4E3A32C8B1D3D00609823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC4E3AC2C8B1D3D00609823 /* ContentView.swift in Sources */,
+				7EC4E3AA2C8B1D3D00609823 /* BariatricAssistantClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC4E3B42C8B1D4200609823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC4E3BD2C8B1D4300609823 /* BariatricAssistantClipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC4E3BE2C8B1D4300609823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC4E3C72C8B1D4300609823 /* BariatricAssistantClipUITests.swift in Sources */,
+				7EC4E3C92C8B1D4300609823 /* BariatricAssistantClipUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EC4E3BA2C8B1D4300609823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC4E3A62C8B1D3D00609823 /* BariatricAssistantClip */;
+			targetProxy = 7EC4E3B92C8B1D4300609823 /* PBXContainerItemProxy */;
+		};
+		7EC4E3C42C8B1D4300609823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC4E3A62C8B1D3D00609823 /* BariatricAssistantClip */;
+			targetProxy = 7EC4E3C32C8B1D4300609823 /* PBXContainerItemProxy */;
+		};
+		7EC4E3CB2C8B1D4300609823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC4E3A62C8B1D3D00609823 /* BariatricAssistantClip */;
+			targetProxy = 7EC4E3CA2C8B1D4300609823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-BariatricAssistant.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = BariatricAssistant/BariatricAssistant.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96YG99NUT2;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -319,7 +603,10 @@
 				);
 				INFOPLIST_FILE = BariatricAssistant/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -329,6 +616,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marsversion.bariatricassistant;
 				PRODUCT_NAME = BariatricAssistant;
+				SWIFT_OBJC_BRIDGING_HEADER = "BariatricAssistant/BariatricAssistant-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -340,13 +628,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-BariatricAssistant.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = BariatricAssistant/BariatricAssistant.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96YG99NUT2;
 				INFOPLIST_FILE = BariatricAssistant/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -356,9 +649,249 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marsversion.bariatricassistant;
 				PRODUCT_NAME = BariatricAssistant;
+				SWIFT_OBJC_BRIDGING_HEADER = "BariatricAssistant/BariatricAssistant-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		7EC4E3CE2C8B1D4300609823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = BariatricAssistantClip/BariatricAssistantClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"BariatricAssistantClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 96YG99NUT2;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BariatricAssistantClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BariatricAssistant;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsversion.bariatricassistant.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EC4E3CF2C8B1D4300609823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = BariatricAssistantClip/BariatricAssistantClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"BariatricAssistantClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 96YG99NUT2;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BariatricAssistantClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BariatricAssistant;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsversion.bariatricassistant.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EC4E3D02C8B1D4300609823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsversion.bariatricassistant.BariatricAssistantClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BariatricAssistantClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BariatricAssistantClip";
+			};
+			name = Debug;
+		};
+		7EC4E3D12C8B1D4300609823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsversion.bariatricassistant.BariatricAssistantClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BariatricAssistantClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BariatricAssistantClip";
+			};
+			name = Release;
+		};
+		7EC4E3D22C8B1D4300609823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsversion.bariatricassistant.BariatricAssistantClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BariatricAssistantClip;
+			};
+			name = Debug;
+		};
+		7EC4E3D32C8B1D4300609823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marsversion.bariatricassistant.BariatricAssistantClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BariatricAssistantClip;
 			};
 			name = Release;
 		};
@@ -386,6 +919,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -414,17 +948,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD = "";
 				LDPLUSPLUS = "";
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				USE_HERMES = false;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -452,6 +986,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -473,16 +1008,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD = "";
 				LDPLUSPLUS = "";
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				USE_HERMES = false;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -495,6 +1031,33 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC4E3D42C8B1D4300609823 /* Build configuration list for PBXNativeTarget "BariatricAssistantClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC4E3CE2C8B1D4300609823 /* Debug */,
+				7EC4E3CF2C8B1D4300609823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC4E3D52C8B1D4300609823 /* Build configuration list for PBXNativeTarget "BariatricAssistantClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC4E3D02C8B1D4300609823 /* Debug */,
+				7EC4E3D12C8B1D4300609823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC4E3D62C8B1D4300609823 /* Build configuration list for PBXNativeTarget "BariatricAssistantClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC4E3D22C8B1D4300609823 /* Debug */,
+				7EC4E3D32C8B1D4300609823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
