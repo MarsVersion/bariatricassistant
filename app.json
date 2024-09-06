@@ -16,6 +16,9 @@
     },
     "ios": {
       "bundleIdentifier": "com.marsversion.bariatricassistant"
+    },
+    "android": {
+      "package": "com.marsversion.bariatricassistant"
     }
   }
 }
